@@ -1,37 +1,24 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <title>Пример с backdrop-filter</title>
-  <style>
-    body {
-      background: url('https://picsum.photos/800/600') no-repeat center center fixed;
-      background-size: cover;
-      margin: 0;
-      height: 100vh;
-    }
-    .overlay {
-      width: 100%;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      backdrop-filter: blur(8px);
-      /* Добавим префикс */
-      -webkit-backdrop-filter: blur(8px);
-    }
-    .text {
-      color: white;
-      font-size: 2rem;
-      background: rgba(0, 0, 0, 0.4);
-      padding: 1rem 2rem;
-      border-radius: 10px;
-    }
-  </style>
-</head>
-<body>
-  <div class="overlay">
-    <div class="text">Размытие фона работает?</div>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QA Визитка</title>
+    <link rel="stylesheet" href="example.style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <img src="https://picsum.photos/200" alt="Фото пользователя" />
+     
+      <div class="info">
+        <h1>Иван Иванов</h1>
+        <p>
+          Я — начинающий QA-инженер, изучаю HTML, CSS и основы тестирования.
+          Хочу делать интернет лучше и понятнее для всех пользователей.
+        </p>
+      </div>
+
+
+    </div>
+  </body>
 </html>
