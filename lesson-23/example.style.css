@@ -39,3 +39,9 @@ body {
         height: 120px;
       }
     }
+
+    .newClass{
+        border: 1px solid #000;
+        width: 171px;
+        height: 58px;
+    }
